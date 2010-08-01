@@ -4,7 +4,8 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.Calendar;
 
-import org.fosdem.R;
+import net.spamt.debconf10.R;
+
 import org.fosdem.broadcast.FavoritesBroadcast;
 import org.fosdem.db.DBAdapter;
 import org.fosdem.pojo.Event;
@@ -20,7 +21,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.ImageView;
 import android.widget.TextView;
 
