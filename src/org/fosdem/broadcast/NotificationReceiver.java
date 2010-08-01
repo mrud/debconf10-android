@@ -90,7 +90,7 @@ public class NotificationReceiver extends BroadcastReceiver {
 		
 		// TODO: make notification icon (hero is black bg while magic white ->
 		// what to do ?)
-		int icon = R.drawable.icon;
+		int icon = R.drawable.icon_debconf;
 		Notification notification = new Notification(icon, event.getTitle(), startTime);
 		Boolean vibrate = prefs.getBoolean(Preferences.PREF_VIBRATE, true);
 		Boolean led = prefs.getBoolean(Preferences.PREF_LED, true);
