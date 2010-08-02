@@ -90,6 +90,7 @@ public class TrackListActivity extends ListActivity  {
 		return true;
 	}
 	protected void handleRoom() {
+		setTitle("Rooms for Day " + dayIndex);
 		rooms = getRooms();
 		setListAdapter(new RoomAdapter(this, R.layout.track_list, getRooms()));
 	}
